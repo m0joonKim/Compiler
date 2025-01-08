@@ -10,6 +10,7 @@ Sogang Univ. 2024 Fall Semester
 ### Assignment 1: Flex & Bison Exercise
 
 ### Assignment 2: F# Exercise
+- This Assignment is the same as 'CSE4050 Programming Language Prj1'
 
 ### Prj1 : Phase #1. Type Checking
 - You must check the input AST and find type errors
