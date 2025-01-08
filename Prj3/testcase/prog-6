@@ -1,0 +1,31 @@
+int main(int i, int j, bool b) {
+  int arr[5];
+  int x;
+  int y;
+  int z;
+  int w;
+
+  if (i < 0 || i >= 5) { return -1; }
+  if (j < 0 || j >= 5) { return -1; }
+
+  arr[0] = 0;
+  arr[1] = 1;
+  arr[2] = 2;
+  arr[3] = 3;
+  arr[4] = 4;
+
+  x = arr[i];
+  if (b) {
+    y = x + 1;
+  } else {
+    y = x - 1;
+  }
+
+  z = arr[i] * arr[i];
+
+  arr[j] = arr[j] + 10;
+
+  w = arr[i] / 2;
+
+  return y + z + w;
+}

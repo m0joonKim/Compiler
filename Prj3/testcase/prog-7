@@ -1,0 +1,22 @@
+int main(int i, int j) {
+  int x;
+  int y;
+  int z;
+
+  x = i * 2;
+  y = -x;
+  z = - (i * 2) + y;
+
+  x = z;
+  x = x / 2;
+
+  if (x < 0) {
+    y = x - j;
+    z = y * 2;
+  } else {
+    y = x + j;
+    z = y * 2;
+  }
+
+  return y;
+}

@@ -1,0 +1,19 @@
+int main(int i, bool b) {
+  int x;
+  int y;
+  int z;
+  int w;
+
+  x = i + 10;
+  y = x;
+  y = y / 2;
+  z = y;
+  if (b) {
+    z = i * 2;
+  } 
+  w = i * 2;
+
+  w = z + w;
+
+  return z + w;
+}

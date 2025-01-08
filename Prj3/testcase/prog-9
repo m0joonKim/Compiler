@@ -1,0 +1,26 @@
+int main(int i, int j, bool b) {
+  int *p1;
+  int *p2;
+  int x = i + 1;
+  int y = j - 2;
+  int z = i * j;
+  int unused;
+
+  p1 = &x;
+  if (b) {
+    p1 = &y;
+  }
+
+  p2 = &y;
+
+  if (!b) {
+     *p1 = *p1 + *p2;
+  } else {
+     *p1 = (*p1) * (*p2);
+  }
+
+  p2 = &z;
+  *p2 = *p2 + *p1;
+
+  return *p2;
+}

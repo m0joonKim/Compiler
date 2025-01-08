@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "i7S60LPlZ1k=",
+  "success": true,
+  "projectFilePath": "/Users/mjkim/compiler/HW2/P5/P5.fsproj",
+  "expectedPackageFiles": [
+    "/Users/mjkim/.nuget/packages/fsharp.core/8.0.403/fsharp.core.8.0.403.nupkg.sha512"
+  ],
+  "logs": []
+}
